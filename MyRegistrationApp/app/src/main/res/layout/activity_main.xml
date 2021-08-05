@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#467"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:id="@+id/myTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_title" />
+
+    <EditText
+        android:paddingRight="0dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        android:importantForAutofill="no"
+        android:paddingLeft="16dp"
+        android:textColor="#586"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#268"
+        android:id="@+id/myEdTname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:paddingStart="16dp"
+        android:importantForAutofill="no"
+        android:paddingLeft="16dp"
+        android:textColor="#586"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#268"
+        android:id="@+id/myEdTemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:importantForAutofill="no"
+        android:paddingLeft="16dp"
+        android:textColor="#586"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#268"
+        android:id="@+id/myEdTidnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_id"
+        android:inputType="number" />
+
+    <EditText
+        android:importantForAutofill="no"
+        android:paddingLeft="16dp"
+        android:textColor="#586"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#268"
+        android:id="@+id/myEdTphonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:importantForAutofill="no"
+        android:paddingLeft="16dp"
+        android:textColor="#586"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#268"
+        android:id="@+id/myEdTpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:backgroundTint="#000"
+            android:textStyle="bold|italic"
+            android:textAllCaps="false"
+            android:textColor="#194"
+            android:id="@+id/mybtnreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_reg" />
+
+        <Button
+            android:backgroundTint="#000"
+            android:textStyle="bold|italic"
+            android:textAllCaps="false"
+            android:textColor="#194"
+            android:id="@+id/mybtnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_login" />
+    </LinearLayout>
+</LinearLayout>
